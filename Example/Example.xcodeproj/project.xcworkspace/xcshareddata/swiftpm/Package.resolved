@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWUserDefaults.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "641eb5a15ee65261fbba093bc5b096518d9750cc"
+        "revision" : "03c70e58d4121ab5f6f3ef395b04c0a564e84019",
+        "version" : "1.0.0"
       }
     }
   ],
