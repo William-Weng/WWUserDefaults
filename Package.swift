@@ -12,9 +12,8 @@ let package = Package(
         .library(name: "WWUserDefaults", targets: ["WWUserDefaults"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/William-Weng/WWPrint.git", from: "1.3.0"),
     ],
     targets: [
-        .target(name: "WWUserDefaults", dependencies: ["WWPrint"], resources: [.process("Privacy")]),
+        .target(name: "WWUserDefaults", resources: [.copy("Privacy")]),
     ]
 )
