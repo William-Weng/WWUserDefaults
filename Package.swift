@@ -1,4 +1,4 @@
-// swift-tools-version: 5.6
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "WWUserDefaults",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v15)
     ],
     products: [
         .library(name: "WWUserDefaults", targets: ["WWUserDefaults"]),
@@ -15,5 +15,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "WWUserDefaults", resources: [.copy("Privacy")]),
+    ],
+    swiftLanguageVersions: [
+        .v5
     ]
 )
